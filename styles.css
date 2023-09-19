@@ -18,6 +18,32 @@ body{
     bottom: 0;
     left: 0;
     margin: auto;
+
+}
+
+.cat-left-ear{
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    transform: rotate(-45deg);
     
 }
 
+.cat-right-ear{
+    position: absolute;
+    top: -26px;
+    left: 163px;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    transform: rotate(45deg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 90px;
+
+    
+}
